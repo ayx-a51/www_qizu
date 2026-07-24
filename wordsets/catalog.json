@@ -1,0 +1,491 @@
+{
+  "version": 1,
+  "languages": [
+    {
+      "id": "zh",
+      "name": "Chinese",
+      "groups": [
+        {
+          "id": "zh-hsk2",
+          "name": "HSK 2.0",
+          "sets": [
+            {
+              "id": "zh-hsk2-1",
+              "name": "HSK 1",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk2_1.csv",
+              "words": 150
+            },
+            {
+              "id": "zh-hsk2-2",
+              "name": "HSK 2",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk2_2.csv",
+              "words": 147
+            },
+            {
+              "id": "zh-hsk2-3",
+              "name": "HSK 3",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk2_3.csv",
+              "words": 298
+            },
+            {
+              "id": "zh-hsk2-4",
+              "name": "HSK 4",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk2_4.csv",
+              "words": 598
+            },
+            {
+              "id": "zh-hsk2-5",
+              "name": "HSK 5",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk2_5.csv",
+              "words": 1298
+            },
+            {
+              "id": "zh-hsk2-6",
+              "name": "HSK 6",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk2_6.csv",
+              "words": 2500
+            }
+          ]
+        },
+        {
+          "id": "zh-hsk3",
+          "name": "HSK 3.0 (Levels 1–6)",
+          "sets": [
+            {
+              "id": "zh-hsk3-1",
+              "name": "HSK 3.0 — Level 1",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk3_1.csv",
+              "words": 506
+            },
+            {
+              "id": "zh-hsk3-2",
+              "name": "HSK 3.0 — Level 2",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk3_2.csv",
+              "words": 750
+            },
+            {
+              "id": "zh-hsk3-3",
+              "name": "HSK 3.0 — Level 3",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk3_3.csv",
+              "words": 953
+            },
+            {
+              "id": "zh-hsk3-4",
+              "name": "HSK 3.0 — Level 4",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk3_4.csv",
+              "words": 972
+            },
+            {
+              "id": "zh-hsk3-5",
+              "name": "HSK 3.0 — Level 5",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk3_5.csv",
+              "words": 1059
+            },
+            {
+              "id": "zh-hsk3-6",
+              "name": "HSK 3.0 — Level 6",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk3_6.csv",
+              "words": 1123
+            }
+          ]
+        },
+        {
+          "id": "zh-hsk3-adv",
+          "name": "HSK 3.0 (Levels 7–9)",
+          "sets": [
+            {
+              "id": "zh-hsk3-79a",
+              "name": "HSK 3.0 — Levels 7–9 (Part A)",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk3_79a.csv",
+              "words": 1869
+            },
+            {
+              "id": "zh-hsk3-79b",
+              "name": "HSK 3.0 — Levels 7–9 (Part B)",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk3_79b.csv",
+              "words": 1869
+            },
+            {
+              "id": "zh-hsk3-79c",
+              "name": "HSK 3.0 — Levels 7–9 (Part C)",
+              "dims": [
+                8,
+                10,
+                1
+              ],
+              "csv": "zh_hsk3_79c.csv",
+              "words": 1868
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja",
+      "name": "Japanese",
+      "groups": [
+        {
+          "id": "ja-jlpt",
+          "name": "JLPT",
+          "sets": [
+            {
+              "id": "ja-jlpt-n5",
+              "name": "JLPT N5",
+              "dims": [
+                11,
+                12,
+                1
+              ],
+              "csv": "ja_jlpt_n5.csv",
+              "words": 718
+            },
+            {
+              "id": "ja-jlpt-n4",
+              "name": "JLPT N4",
+              "dims": [
+                11,
+                12,
+                1
+              ],
+              "csv": "ja_jlpt_n4.csv",
+              "words": 668
+            },
+            {
+              "id": "ja-jlpt-n3",
+              "name": "JLPT N3",
+              "dims": [
+                11,
+                12,
+                1
+              ],
+              "csv": "ja_jlpt_n3.csv",
+              "words": 2140
+            },
+            {
+              "id": "ja-jlpt-n2",
+              "name": "JLPT N2",
+              "dims": [
+                11,
+                12,
+                1
+              ],
+              "csv": "ja_jlpt_n2.csv",
+              "words": 1808
+            },
+            {
+              "id": "ja-jlpt-n1",
+              "name": "JLPT N1",
+              "dims": [
+                11,
+                12,
+                1
+              ],
+              "csv": "ja_jlpt_n1.csv",
+              "words": 2698
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko",
+      "name": "Korean",
+      "groups": [
+        {
+          "id": "ko-topik",
+          "name": "TOPIK",
+          "sets": [
+            {
+              "id": "ko-topik-a",
+              "name": "TOPIK I — Beginner (A)",
+              "dims": [
+                14,
+                1
+              ],
+              "csv": "ko_topik_a.csv",
+              "words": 894
+            },
+            {
+              "id": "ko-topik-b",
+              "name": "TOPIK II — Intermediate (B)",
+              "dims": [
+                14,
+                1
+              ],
+              "csv": "ko_topik_b.csv",
+              "words": 2028
+            },
+            {
+              "id": "ko-topik-c",
+              "name": "TOPIK II — Advanced (C)",
+              "dims": [
+                14,
+                1
+              ],
+              "csv": "ko_topik_c.csv",
+              "words": 2786
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en",
+      "name": "English",
+      "groups": [
+        {
+          "id": "en-cefr",
+          "name": "English CEFR",
+          "sets": [
+            {
+              "id": "en-cefr-a1",
+              "name": "English A1",
+              "dims": [
+                1,
+                16
+              ],
+              "csv": "en_cefr_a1.csv",
+              "words": 1063
+            },
+            {
+              "id": "en-cefr-a2",
+              "name": "English A2",
+              "dims": [
+                1,
+                16
+              ],
+              "csv": "en_cefr_a2.csv",
+              "words": 1241
+            },
+            {
+              "id": "en-cefr-b1",
+              "name": "English B1",
+              "dims": [
+                1,
+                16
+              ],
+              "csv": "en_cefr_b1.csv",
+              "words": 2139
+            },
+            {
+              "id": "en-cefr-b2",
+              "name": "English B2",
+              "dims": [
+                1,
+                16
+              ],
+              "csv": "en_cefr_b2.csv",
+              "words": 2417
+            },
+            {
+              "id": "en-cefr-c1",
+              "name": "English C1",
+              "dims": [
+                1,
+                16
+              ],
+              "csv": "en_cefr_c1.csv",
+              "words": 913
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de",
+      "name": "German",
+      "groups": [
+        {
+          "id": "de-cefr",
+          "name": "German CEFR",
+          "sets": [
+            {
+              "id": "de-cefr-a1",
+              "name": "German A1",
+              "dims": [
+                2,
+                1
+              ],
+              "csv": "de_cefr_a1.csv",
+              "words": 650
+            },
+            {
+              "id": "de-cefr-a2",
+              "name": "German A2",
+              "dims": [
+                2,
+                1
+              ],
+              "csv": "de_cefr_a2.csv",
+              "words": 650
+            },
+            {
+              "id": "de-cefr-b1",
+              "name": "German B1",
+              "dims": [
+                2,
+                1
+              ],
+              "csv": "de_cefr_b1.csv",
+              "words": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr",
+      "name": "French",
+      "groups": [
+        {
+          "id": "fr-cefr",
+          "name": "French CEFR",
+          "sets": [
+            {
+              "id": "fr-cefr-a1",
+              "name": "French A1",
+              "dims": [
+                3,
+                1
+              ],
+              "csv": "fr_cefr_a1.csv",
+              "words": 650
+            },
+            {
+              "id": "fr-cefr-a2",
+              "name": "French A2",
+              "dims": [
+                3,
+                1
+              ],
+              "csv": "fr_cefr_a2.csv",
+              "words": 650
+            },
+            {
+              "id": "fr-cefr-b1",
+              "name": "French B1",
+              "dims": [
+                3,
+                1
+              ],
+              "csv": "fr_cefr_b1.csv",
+              "words": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "es",
+      "name": "Spanish",
+      "groups": [
+        {
+          "id": "es-cefr",
+          "name": "Spanish CEFR",
+          "sets": [
+            {
+              "id": "es-cefr-a1",
+              "name": "Spanish A1",
+              "dims": [
+                4,
+                1
+              ],
+              "csv": "es_cefr_a1.csv",
+              "words": 650
+            },
+            {
+              "id": "es-cefr-a2",
+              "name": "Spanish A2",
+              "dims": [
+                4,
+                1
+              ],
+              "csv": "es_cefr_a2.csv",
+              "words": 650
+            },
+            {
+              "id": "es-cefr-b1",
+              "name": "Spanish B1",
+              "dims": [
+                4,
+                1
+              ],
+              "csv": "es_cefr_b1.csv",
+              "words": 1218
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
