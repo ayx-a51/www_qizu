@@ -6,7 +6,7 @@ Chinese (Simpl.),Pinyin,English
 安静,ānjìng,quiet; peaceful; calm
 把,bǎ,to hold; to grasp; to hold a baby in position to help it urinate or defecate; handlebar
 班,bān,team; class; grade; (military) squad
-搬,bān,to move (i.e. relocate oneself); to move (sth relatively heavy or bulky); to shift; to copy indiscriminately
+搬,bān,to move (house or heavy objects); to carry; to shift
 办法,bànfǎ,means; method; way (of doing sth)
 办公室,bàngōngshì,office; business premises; bureau
 半,bàn,half; semi-; incomplete; (after a number) and a half
@@ -40,7 +40,7 @@ Chinese (Simpl.),Pinyin,English
 除了,chúle,besides; apart from (... also...); in addition to; except (for)
 厨房,chúfáng,kitchen
 春,chūn,spring (season); gay; joyful; youthful
-词语,cíyǔ,word (general term including monosyllables through to short phrases); term (e.g. technical term); expression
+词语,cíyǔ,word; term; expression
 聪明,cōngming,intelligent; clever; bright; smart
 打扫,dǎsǎo,to clean; to sweep
 打算,dǎsuàn,to plan; to intend; to calculate; plan
@@ -48,7 +48,7 @@ Chinese (Simpl.),Pinyin,English
 担心,dānxīn,anxious; worried; uneasy; to worry
 蛋糕,dàngāo,cake
 当然,dāngrán,only natural; as it should be; certainly; of course
-地,de,-ly; structural particle: used before a verb or adjective; linking it to preceding modifying adverbial adjunct; earth; ground
+地,de,-ly (adverbial particle); adverbial particle
 地方,dìfāng,region; regional (away from the central administration); local; area
 地铁,dìtiě,underground railway; subway; subway train
 地图,dìtú,map
@@ -62,7 +62,7 @@ Chinese (Simpl.),Pinyin,English
 短,duǎn,short; brief; to lack; weak point
 段,duàn,paragraph; section; segment; stage (of a process)
 锻炼,duànliàn,to toughen; to temper; to engage in physical exercise; to work out
-多么,duōme,how (wonderful etc); what (a great idea etc); however (difficult it may be etc); (in interrogative sentences) how (much etc)
+多么,duōme,how (wonderful etc); what (a great idea etc); so
 饿,è,to be hungry; hungry; to starve (sb)
 而且,érqiě,(not only ...) but also; moreover; in addition; furthermore
 耳朵,ěrduo,ear; handle (on a cup)
@@ -75,7 +75,7 @@ Chinese (Simpl.),Pinyin,English
 附近,fùjìn,nearby; neighboring; (in the) vicinity (of); neighborhood
 复习,fùxí,to review; revision
 敢,gǎn,to dare; daring; (polite) may I venture
-感冒,gǎnmào,to catch cold; (common) cold; (coll.) to be interested in (often used in the negative); (Tw) to detest
+感冒,gǎnmào,to catch a cold; to catch cold; (common) cold
 干净,gānjìng,clean; neat
 刚才,gāngcái,just now; a moment ago; just now (variant of 刚才)
 根据,gēnjù,according to; based on; basis; foundation
@@ -139,7 +139,7 @@ Chinese (Simpl.),Pinyin,English
 刻,kè,quarter (hour); moment; to carve; to engrave
 客人,kèrén,visitor; guest; customer; client
 空调,kōngtiáo,air conditioning; air conditioner (including units that have a heating mode)
-口,kǒu,mouth; classifier for things with mouths (people domestic animals cannons wells etc); classifier for bites or mouthfuls
+口,kǒu,mouth; opening; mouthful
 哭,kū,to cry; to weep
 裤子,kùzi,pants; trousers; pants
 筷子,kuàizi,chopsticks
@@ -164,7 +164,7 @@ Chinese (Simpl.),Pinyin,English
 面条,miàntiáo,noodles
 明白,míngbai,clear; obvious; unequivocal; to understand
 拿,ná,to hold; to seize; to catch; to apprehend
-奶奶,nǎinai,(informal) grandma (paternal grandmother); (respectful) mistress of the house; (coll.) boobies; breasts
+奶奶,nǎinai,grandma (paternal); paternal grandmother; granny
 南,nán,south
 难,nán,difficult (to...); problem; difficulty; difficult
 难过,nánguò,to feel sad; to feel unwell; (of life) to be difficult
@@ -177,7 +177,7 @@ Chinese (Simpl.),Pinyin,English
 胖,pàng,fat; plump
 啤酒,píjiǔ,beer (loanword)
 葡萄,pútao,grape
-普通话,pǔtōnghuà,Mandarin (common language); Putonghua (common speech of the Chinese language); ordinary speech
+普通话,pǔtōnghuà,Mandarin; Mandarin Chinese; Putonghua
 其实,qíshí,actually; in fact; really
 其他,qítā,other; (sth or sb) else; the rest
 奇怪,qíguài,strange; odd; to marvel; to be baffled
@@ -193,7 +193,7 @@ Chinese (Simpl.),Pinyin,English
 容易,róngyì,easy; straightforward; likely; liable to
 如果,rúguǒ,if; in case; in the event that
 伞,sǎn,umbrella; parasol; damask silk
-上网,shàngwǎng,to go online; to connect to the Internet; (of a document etc) to be uploaded to the Internet; (tennis volleyball etc) to move in close to the net
+上网,shàngwǎng,to go online; to surf the Internet; to connect to the Internet
 生气,shēngqì,to get angry; to take offense; angry; vitality
 声音,shēngyīn,voice; sound
 使,shǐ,to make; to cause; to enable; to use
@@ -263,7 +263,7 @@ Chinese (Simpl.),Pinyin,English
 一直,yīzhí,straight (in a straight line); continuously; always; all the way through
 以后,yǐhòu,after; later; afterwards; following
 以前,yǐqián,before; formerly; previous; ago
-以为,yǐwéi,to think (i.e. to take it to be true that ...) (Usually there is an implication that the notion is mistaken – except when expressing one's own current opinion.)
+以为,yǐwéi,to think (mistakenly); to believe; to assume
 音乐,yīnyuè,music
 银行,yínháng,bank
 应该,yīnggāi,ought to; should; must
@@ -291,7 +291,7 @@ Chinese (Simpl.),Pinyin,English
 主要,zhǔyào,main; principal; major; primary
 注意,zhùyì,to take note of; to pay attention to
 祝,zhù,to wish (sb well); to express good wishes
-字典,zìdiǎn,Chinese character dictionary (containing entries for single characters contrasted with a 词典 which has entries for words of one or more characters); (coll.) dictionary
+字典,zìdiǎn,dictionary; character dictionary
 自己,zìjǐ,oneself; one's own
 总是,zǒngshì,always
 最近,zuìjìn,recently; soon; nearest

@@ -8,12 +8,12 @@ Chinese (Simpl.),Pinyin,English
 把握,bǎwò,to grasp (also fig.); to seize; to hold; assurance
 白菜,báicài,Chinese cabbage; pak choi
 班级,bānjí,class (group of students); grade (in school)
-搬,bān,to move (i.e. relocate oneself); to move (sth relatively heavy or bulky); to shift; to copy indiscriminately
+搬,bān,to move (house or heavy objects); to carry; to shift
 搬家,bānjiā,to move house; to relocate; to remove (sth)
 板,bǎn,board; plank; plate; shutter
 办理,bànlǐ,to handle; to transact; to conduct
 保,bǎo,to protect; to defend; to guarantee
-保安,bǎoān,to ensure public security; to ensure safety (for workers engaged in production); public security; security guard
+保安,bǎoān,security guard; to ensure public security; public security
 保持,bǎochí,to keep; to maintain; to hold; to preserve
 保存,bǎocún,to conserve; to preserve; to keep; to save (a file etc) (computing)
 保护,bǎohù,to protect; to defend; to safeguard; protection
@@ -189,7 +189,7 @@ Chinese (Simpl.),Pinyin,English
 费用,fèiyòng,cost; expenditure; expense
 分别,fēnbié,to part; to leave each other; to distinguish; to tell apart
 分配,fēnpèi,to distribute; to assign; to allocate; to partition (a hard drive)
-分组,fēnzǔ,to divide into groups; group (formed from a larger group); subgroup; (computer networking) packet
+分组,fēnzǔ,to divide into groups; to group; subgroup
 丰富,fēngfù,to enrich; rich; plentiful; abundant
 风险,fēngxiǎn,risk; hazard
 否定,fǒudìng,to negate; to deny; to reject; negative (answer)
@@ -212,7 +212,7 @@ Chinese (Simpl.),Pinyin,English
 赶紧,gǎnjǐn,hurriedly; without delay
 赶快,gǎnkuài,quickly; at once
 敢,gǎn,to dare; daring; (polite) may I venture
-感冒,gǎnmào,to catch cold; (common) cold; (coll.) to be interested in (often used in the negative); (Tw) to detest
+感冒,gǎnmào,to catch a cold; to catch cold; (common) cold
 感情,gǎnqíng,emotion; sentiment; affection; feelings between two persons
 感受,gǎnshòu,to sense; perception; to feel (through the senses); to experience
 干吗,gànmá,see 干嘛
@@ -251,7 +251,7 @@ Chinese (Simpl.),Pinyin,English
 古,gǔ,ancient; old; paleo-
 古代,gǔdài,ancient times
 故乡,gùxiāng,home; homeland; native place
-挂,guà,to hang or suspend (from a hook etc); to hang up (the phone); (of a line) to be dead; to be worried or concerned
+挂,guà,to hang; to hang up (the phone); to suspend
 关系,guānxi,relation; relationship; to concern; to affect
 关注,guānzhù,to pay attention to; to follow sth closely; to follow (on social media); concern
 观察,guānchá,to observe; to watch; to survey
@@ -457,7 +457,7 @@ Chinese (Simpl.),Pinyin,English
 路线,lùxiàn,itinerary; route; political line (e.g. right revisionist road)
 旅馆,lǚguǎn,hotel
 旅行社,lǚxíngshè,travel agency
-绿茶,lǜchá,green tea; (slang) (of a girl) seemingly innocent and charming but actually calculating and manipulative; a girl who has these qualities
+绿茶,lǜchá,green tea
 乱,luàn,in confusion or disorder; in a confused state of mind; disorder; upheaval
 落后,luòhòu,to fall behind; to lag (in technology etc); backward; to retrogress
 麻烦,máfan,trouble; inconvenience; inconvenient; troublesome
@@ -746,12 +746,12 @@ Chinese (Simpl.),Pinyin,English
 握手,wòshǒu,to shake hands
 屋子,wūzi,house; room
 武器,wǔqì,weapon; arms
-武术,wǔshù,military skill or technique (in former times); all kinds of martial art sports (some claiming spiritual development); self-defense; tradition of choreographed fights from opera and film (recent usage)
+武术,wǔshù,martial arts; wushu
 舞台,wǔtái,(lit. and fig.) stage; arena
 希望,xīwàng,to hope; a hope; a wish
 系,xì,to connect; to relate to; to tie up; to bind
 西部,xībù,western part
-下来,xiàlai,to come down; (completed action marker); (after verb of motion indicates motion down and towards us also fig.); (indicates continuation from the past towards us)
+下来,xiàlai,to come down; to get down
 下面,xiàmiàn,below; under; next; the following
 下去,xiàqù,to go down; to descend; to go on; to continue
 先进,xiānjìn,advanced (technology); to advance
@@ -865,7 +865,7 @@ Chinese (Simpl.),Pinyin,English
 长处,chángchù,good aspects; strong points
 长期,chángqī,long term; long time; long range (of a forecast)
 照,zhào,to shine; to illuminate; according to; in accordance with
-者,zhě,(after a verb or adjective) one who (is) ...; (after a noun) person involved in ...; -er; -ist
+者,zhě,(nominalizing particle) one who ...; -er; -ist
 真实,zhēnshí,true; real
 争,zhēng,to strive for; to vie for; to argue or debate; deficient or lacking (dialect)
 争取,zhēngqǔ,to fight for; to strive for; to win over
@@ -885,7 +885,7 @@ Chinese (Simpl.),Pinyin,English
 支持,zhīchí,to be in favor of; to support; to back; support
 支付,zhīfù,to pay (money)
 直,zhí,straight; to straighten; direct
-直播,zhíbō,(TV radio) to broadcast live; live broadcast; (Internet) to livestream; (agriculture) direct seeding
+直播,zhíbō,to broadcast live; live broadcast; to livestream
 直到,zhídào,until
 值,zhí,value; (to be) worth; to happen to; to be on duty
 值得,zhíde,to be worth; to deserve
@@ -893,7 +893,7 @@ Chinese (Simpl.),Pinyin,English
 职业,zhíyè,occupation; profession; vocation; professional
 只好,zhǐhǎo,to have no other option but to ...; to have to; to be forced to
 只是,zhǐshì,merely; only; just; nothing but
-只有,zhǐyǒu,only have ...; there is only ...; (used in combination with 才) it is only if one ... (that one can ...) (Example: 只有通过治疗才能痊愈 'the only way to cure it is with therapy'); it is only ... (who ...) (Example: 要 'only men would have such a requirement')
+只有,zhǐyǒu,only; only if; there is only ...
 指,zhǐ,finger; to point at or to; to indicate or refer to; to depend on
 指出,zhǐchū,to indicate; to point out
 指导,zhǐdǎo,to guide; to give directions; to direct; to coach
@@ -906,7 +906,7 @@ Chinese (Simpl.),Pinyin,English
 制造,zhìzào,to manufacture; to make
 制作,zhìzuò,to make; to manufacture
 中部,zhōngbù,middle part; central section
-中华民族,Zhōnghuámínzú,the Chinese nation; the Chinese people (collective reference to all the ethnic groups in China)
+中华民族,Zhōnghuámínzú,the Chinese nation; the Chinese people
 终于,zhōngyú,at last; in the end; finally; eventually
 钟,zhōng,clock; bell; o'clock
 种,zhǒng,seed; species; kind; type
@@ -925,7 +925,7 @@ Chinese (Simpl.),Pinyin,English
 抓住,zhuāzhù,to grab hold of; to capture
 专家,zhuānjiā,expert; specialist
 专门,zhuānmén,specialist; specialized; customized
-专题,zhuāntí,specific topic (addressed by a book lecture TV program etc); article; report or program etc on a specific topic
+专题,zhuāntí,special topic; specific topic; feature (article or program)
 专业,zhuānyè,specialty; specialized field; main field of study (at university); major
 转,zhuǎn,to turn; to change direction; to transfer
 转变,zhuǎnbiàn,to change; to transform; shift; transformation

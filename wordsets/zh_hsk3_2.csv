@@ -78,10 +78,10 @@ Chinese (Simpl.),Pinyin,English
 春天,chūntiān,spring (season)
 词,cí,word; statement; speech; lyrics
 词典,cídiǎn,dictionary
-词语,cíyǔ,word (general term including monosyllables through to short phrases); term (e.g. technical term); expression
+词语,cíyǔ,word; term; expression
 从小,cóngxiǎo,from childhood; from a young age
 答应,dāying,to answer; to respond; to answer positively; to agree
-打工,dǎgōng,to work a temporary or casual job; (of students) to have a job outside of class time; or during vacation
+打工,dǎgōng,to work a casual job; to work part-time
 打算,dǎsuàn,to plan; to intend; to calculate; plan
 打印,dǎyìn,to affix a seal; to stamp; to print out (with a printer)
 大部分,dàbùfen,in large part; the greater part; the majority
@@ -98,7 +98,7 @@ Chinese (Simpl.),Pinyin,English
 大自然,dàzìrán,nature (the natural world)
 带,dài,to bring; to carry; to take along
 带来,dàilái,to bring; (fig.) to bring about; to produce
-单位,dānwèi,unit (of measure); unit (group of people as a whole); work unit (place of employment esp. in the PRC prior to economic reform)
+单位,dānwèi,unit (of measure); work unit (workplace)
 但,dàn,but; yet; however; still
 但是,dànshì,but; however
 蛋,Dàn,egg; oval-shaped thing
@@ -140,7 +140,7 @@ Chinese (Simpl.),Pinyin,English
 对话,duìhuà,to talk (with sb); dialogue; conversation
 对面,duìmiàn,(sitting) opposite; across (the street); directly in front; to be face to face
 多久,duōjiǔ,(of time) how long?; (not) a long time
-多么,duōme,how (wonderful etc); what (a great idea etc); however (difficult it may be etc); (in interrogative sentences) how (much etc)
+多么,duōme,how (wonderful etc); what (a great idea etc)
 多数,duōshù,majority; most
 多云,duōyún,cloudy (meteorology)
 而且,érqiě,(not only ...) but also; moreover; in addition; furthermore
@@ -186,7 +186,7 @@ Chinese (Simpl.),Pinyin,English
 公司,gōngsī,company; firm; corporation
 公园,gōngyuán,park (for public recreation)
 狗,gǒu,dog
-够,gòu,enough (sufficient); enough (too much); (coll.) (before adj.) really; (coll.) to reach by stretching out
+够,gòu,enough; sufficient; to reach (by stretching)
 故事,gùshì,story; tale
 故意,gùyì,deliberately; on purpose
 顾客,gùkè,customer; client
@@ -205,8 +205,8 @@ Chinese (Simpl.),Pinyin,English
 好处,hǎochù,benefit; advantage; merit
 好多,hǎoduō,many; quite a lot; much better
 好久,hǎojiǔ,quite a while
-好人,hǎorén,good person; healthy person; person who tries not to offend anyone; even at the expense of principle
-好事,hǎoshì,good action; deed; thing or work (also sarcastic 'a fine thing indeed'); charity; happy occasion; Daoist or Buddhist ceremony for the souls of the dead
+好人,hǎorén,good person; nice person
+好事,hǎoshì,good deed; good thing; happy occasion
 好像,hǎoxiàng,as if; to seem like
 合适,héshì,suitable; fitting; appropriate
 河,hé,river
@@ -277,7 +277,7 @@ Chinese (Simpl.),Pinyin,English
 结果,jiéguǒ,result; outcome; conclusion
 借,jiè,to lend; to borrow; by means of; to take (an opportunity)
 今后,jīnhòu,hereafter; henceforth; in the future; from now on
-斤,jīn,catty; (PRC) weight equal to 500 g; (Tw) weight equal to 600 g; (HK Malaysia Singapore) slightly over 604 g
+斤,jīn,catty (unit of about 500 g); half a kilogram
 近,jìn,near; close to; approximately
 进入,jìnrù,to enter; to join; to go into
 进行,jìnxíng,to advance; to conduct; underway; in progress
@@ -293,7 +293,7 @@ Chinese (Simpl.),Pinyin,English
 句,jù,sentence; clause; phrase
 句子,jùzi,sentence
 卡,kǎ,card; to get stuck
-开机,kāijī,to start an engine; to boot up (a computer); to press Ctrl-Alt-Delete; to begin shooting a film or TV show
+开机,kāijī,to turn on (a device); to boot up (a computer)
 开心,kāixīn,to feel happy; to rejoice; to have a great time; to make fun of sb
 开学,kāixué,foundation of a University or College; school opening; the start of a new term
 看法,kànfǎ,way of looking at a thing; view; opinion
@@ -343,7 +343,7 @@ Chinese (Simpl.),Pinyin,English
 零下,língxià,below zero
 流,liú,to flow; to disseminate; to circulate or spread; to move or drift
 流利,liúlì,fluent
-流行,liúxíng,(of a contagious disease etc) to spread; to propagate; (of a style of clothing song etc) popular; fashionable
+流行,liúxíng,popular; fashionable; (of a disease) to spread
 留,liú,to leave (a message etc); to retain; to stay; to remain
 留下,liúxià,to leave behind; to stay behind; to remain; to keep
 留学生,liúxuéshēng,student studying abroad; (foreign) exchange student
@@ -404,7 +404,7 @@ Chinese (Simpl.),Pinyin,English
 瓶,píng,bottle; vase; pitcher; classifier for wine and liquids
 瓶子,píngzi,bottle
 普通,pǔtōng,common; ordinary; general; average
-普通话,pǔtōnghuà,Mandarin (common language); Putonghua (common speech of the Chinese language); ordinary speech
+普通话,pǔtōnghuà,Mandarin (standard Chinese); Putonghua
 其他,qítā,other; (sth or sb) else; the rest
 其中,qízhōng,among; in; included among these
 骑,qí,to ride (a horse/bike); to sit astride
@@ -475,7 +475,7 @@ Chinese (Simpl.),Pinyin,English
 收到,shōudào,to receive
 收入,shōurù,to take in; income; revenue
 手表,shǒubiǎo,wristwatch
-受到,shòudào,to receive (praise an education punishment etc); to be ...ed (praised educated punished etc)
+受到,shòudào,to receive (praise etc); to be subjected to; to suffer
 舒服,shūfu,comfortable; feeling well
 熟,shú,ripe; mature; thoroughly cooked; done
 数,shù,number; figure; several (shǔ = to count)
@@ -532,7 +532,7 @@ Chinese (Simpl.),Pinyin,English
 推,tuī,to push; to cut; to refuse; to reject
 腿,tuǐ,leg; hip bone
 外地,wàidì,parts of the country other than where one is
-外卖,wàimài,(of a restaurant) to provide a takeout or home delivery meal; takeout (business); takeout (meal)
+外卖,wàimài,takeout (food); food delivery
 完,wán,to finish; to be over; whole; complete
 完成,wánchéng,to complete; to accomplish
 完全,wánquán,complete; whole; totally; entirely
@@ -598,7 +598,7 @@ Chinese (Simpl.),Pinyin,English
 信用卡,xìnyòngkǎ,credit card
 星星,xīngxing,(coll.) a star; the stars in the sky
 行动,xíngdòng,operation; action; to move about; mobile
-行人,xíngrén,pedestrian; traveler on foot; passer-by; official responsible for arranging audiences with the emperor
+行人,xíngrén,pedestrian; passer-by
 行为,xíngwéi,action; conduct; behavior; activity
 姓,xìng,family name; surname; to be surnamed
 姓名,xìngmíng,full name
@@ -608,7 +608,7 @@ Chinese (Simpl.),Pinyin,English
 学期,xuéqī,term; semester
 雪,xuě,snow; (literary) to wipe away (a humiliation etc)
 颜色,yánsè,color; countenance; appearance; facial expression
-眼,yǎn,eye; small hole; crux (of a matter); classifier for big hollow things (wells stoves pots etc)
+眼,yǎn,eye; small hole
 眼睛,yǎnjing,eye
 养,yǎng,to raise (animals); to bring up (children); to keep (pets); to support
 样子,yàngzi,appearance; manner; pattern; model
@@ -632,9 +632,9 @@ Chinese (Simpl.),Pinyin,English
 已经,yǐjīng,already
 以后,yǐhòu,after; later; afterwards; following
 以前,yǐqián,before; formerly; previous; ago
-以上,yǐshàng,that level or higher; that amount or more; the above-mentioned; (used to indicate that one has completed one's remarks) That is all.
+以上,yǐshàng,above; more than; the above-mentioned
 以外,yǐwài,apart from; other than; except for; external
-以为,yǐwéi,to think (i.e. to take it to be true that ...) (Usually there is an implication that the notion is mistaken – except when expressing one's own current opinion.)
+以为,yǐwéi,to (mistakenly) think; to assume; to believe
 以下,yǐxià,that level or lower; that amount or less; the following
 椅子,yǐzi,chair
 亿,yì,100 million
@@ -668,7 +668,7 @@ Chinese (Simpl.),Pinyin,English
 原来,yuánlái,original; former; originally; formerly
 原因,yuányīn,cause; origin; root cause; reason
 院,yuàn,courtyard; institution
-院长,yuànzhǎng,the head of an institution whose name ends in 院; chair of a board; president of a university; department head
+院长,yuànzhǎng,dean; director (of a hospital etc); president (of a university)
 院子,yuànzi,courtyard; garden; yard; patio
 愿意,yuànyì,to wish; to want; ready; willing (to do sth)
 月份,yuèfèn,month
@@ -678,7 +678,7 @@ Chinese (Simpl.),Pinyin,English
 云,yún,cloud
 运动,yùndòng,to move; to exercise; sports; exercise
 咱,zán,we (including the listener); I; me
-咱们,zánmen,we or us (including both the speaker and the person(s) spoken to); (dialect) I or me; (dialect) (in a coaxing or familiar way) you
+咱们,zánmen,we (including the listener); us
 脏,zāng,dirty; filthy
 早餐,zǎocān,breakfast
 早晨,zǎochén,early morning
@@ -727,7 +727,7 @@ Chinese (Simpl.),Pinyin,English
 住院,zhùyuàn,to be in hospital; to be hospitalized
 装,zhuāng,to install; to pack; to pretend; clothing
 准确,zhǔnquè,accurate; exact; precise
-字典,zìdiǎn,Chinese character dictionary (containing entries for single characters contrasted with a 词典 which has entries for words of one or more characters); (coll.) dictionary
+字典,zìdiǎn,dictionary; character dictionary
 自己,zìjǐ,oneself; one's own
 自行车,zìxíngchē,bicycle; bike
 自由,zìyóu,freedom; liberty; free; unrestricted
