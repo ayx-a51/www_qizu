@@ -65,6 +65,8 @@ a:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:v
 
 /* ---------- header ---------- */
 .top{display:flex;align-items:center;gap:14px;padding-block:clamp(20px,3vw,32px)}
+/* Mark + wordmark are one link back to the site root. */
+.top .home{display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit}
 .top img{width:48px;height:48px;border-radius:var(--r-tile)}
 .top .name{font-weight:800;font-size:1.25rem;letter-spacing:.01em}
 .top .toplink{
