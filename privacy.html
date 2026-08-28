@@ -24,7 +24,7 @@
   <div class="pagehead">
     <p class="kicker">Legal</p>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: 6 August 2026</p>
+    <p class="updated">Last updated: 28 August 2026</p>
     <p class="intro">QIZU holds the quiz sets you build and how you are doing
     with them. This page describes exactly what is stored, where, and how to
     remove it.</p>
@@ -49,9 +49,16 @@
     Firestore, hosted in Zürich, Switzerland), encrypted in transit. Crash
     reports — device model, operating system, app version and crash traces,
     never your quiz content — are processed by Firebase Crashlytics to keep the
-    app reliable, and can be turned off at any time under
-    <strong>Settings &rarr; Privacy</strong>. Firebase App Check verifies that
-    requests come from the genuine app.</p>
+    app reliable, grouped under a random crash-reporting installation
+    identifier that is not linked to your account, and can be turned off at
+    any time under <strong>Settings &rarr; Privacy</strong>. Firebase App
+    Check verifies that requests come from the genuine app, using a Play
+    Integrity attestation and a Firebase installation ID (not tied to you or
+    your device hardware). A random per-installation code is stored with the
+    account to make the free word-list import retry-safe, and redeeming a
+    QIZU+ code stores the code and the time of redemption with the account.
+    As with any Firebase-backed app, Google records the IP address and user
+    agent of requests for sign-in security and in function logs.</p>
 
     <h2>Cookies and tracking</h2>
     <p>QIZU does not use cookies, advertising identifiers, analytics, or any
@@ -72,9 +79,11 @@
     <p>Your data is retained for as long as your account exists. You may delete
     your account and all data at any time. If you use QIZU without signing in,
     your data is tied to that device's anonymous identifier;
-    <strong>Settings &rarr; Delete all data</strong> removes it from our
-    servers. Uninstalling the app without doing so leaves the data stored but
-    permanently inaccessible to anyone, including you.</p>
+    <strong>Settings &rarr; Delete account</strong> is available there too and
+    removes the data and the anonymous identifier itself from our servers
+    (<strong>Delete all data</strong> removes the data but keeps the
+    identifier). Uninstalling the app without doing so leaves the data stored
+    but permanently inaccessible to anyone, including you.</p>
 
     <h2>User groups</h2>
     <p>All user groups are treated equally. We do not apply different rules or
