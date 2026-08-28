@@ -11,9 +11,11 @@ shot-*.webp    Screenshots taken on an Android emulator (1080x2400), scaled to
 
 qizu-mark.png  The current launcher icon (assets/icon/icon_512.png) at 192px —
                the header and footer mark on every page. favicon.ico and
-               apple-touch-icon.png in the site root are the matching
-               icon.kitchen web exports. The retired QIZU.svg (the old fanned-
-               cards design) is gone; nothing references it.
+               apple-touch-icon.png in the site root come from the same
+               pipeline (app repo tool/generate_icon.ps1 → assets/icon/web/);
+               copy them over whenever the icon changes. Since 2026-08-28 the
+               icon is the "answer line" mark (check + yellow line + mint
+               sparkle/period on deep magenta), not the smiley card.
 
 flame-0..7     The D31 streak-flame colourways, in tier order (day 1 / 7 / 14 /
                30 / 90 / 180 / 365 / 730), from the app's own

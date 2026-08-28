@@ -395,8 +395,17 @@ figure{margin:0}
 /* ---------- cta ---------- */
 .cta h2{font-size:clamp(2.6rem,8.6vw,6.2rem);font-weight:800;line-height:.98;letter-spacing:-.035em}
 .cta h2 .hollow{color:var(--teal)}
+/* Hollow type: paint-order draws the stroke FIRST, so the surface-colored fill
+   covers the half of the stroke inside the glyph — including the contour lines
+   that otherwise cross where Nunito's bowls meet stems (a transparent fill
+   shows every self-intersection). Browsers without paint-order on HTML text
+   (Firefox) paint stroke-over-fill and get the previous look. */
 @supports ((-webkit-text-stroke:2px #00796B)){
-  .cta h2 .hollow{color:transparent;-webkit-text-stroke:clamp(1.5px,.25vw,2.6px) var(--teal)}
+  .cta h2 .hollow{
+    color:var(--surface);
+    -webkit-text-stroke:clamp(2px,.32vw,3.4px) var(--teal);
+    paint-order:stroke fill;
+  }
 }
 .cta .fan{margin-top:clamp(16px,2.4vw,26px)}
 .cta .play{margin-top:clamp(18px,2.6vw,30px)}
