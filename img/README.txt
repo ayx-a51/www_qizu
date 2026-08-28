@@ -21,8 +21,10 @@ flame-0..7     The D31 streak-flame colourways, in tier order (day 1 / 7 / 14 /
                30 / 90 / 180 / 365 / 730), from the app's own
                assets/illustrations/streak_flame*.webp, resized to 176px.
 
-buddy.webp     assets/illustrations/test_buddy_2.webp, resized to 300px — the
-               companion drawn inside the hand-built hero phone.
+buddy.webp     assets/illustrations/test_buddy_2.webp (1500x1000), cropped to
+               the art's bounds and resized to 440x310 — the companion drawn
+               inside the hand-built hero phone. Keep the aspect ratio when
+               regenerating: an earlier square resize stretched the mascot.
 
 og.png         store/feature_graphic.png, scaled to 1200x630 and quantised.
                Link preview image only; no page loads it.

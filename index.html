@@ -131,7 +131,7 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--teal);outline-offs
    A replica of the §8.6 test screen at the moment a typed answer lands. */
 .hero-art{position:relative;justify-self:center;width:min(330px,100%)}
 .phone{background:var(--surface);border:1.5px solid var(--outline-variant);border-radius:40px;padding:11px}
-.screen{border-radius:30px;overflow:hidden;background:var(--surface);border:1px solid var(--s-container);padding:14px 13px 0}
+.screen{border-radius:30px;overflow:hidden;background:var(--surface);border:1px solid var(--s-container);padding:14px 13px 0;display:flex;flex-direction:column}
 .ptop{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--ink-variant)}
 .ptop .x{font-size:17px;color:var(--ink);line-height:1}
 .ptop .tally{margin-inline:auto;display:flex;gap:9px}
@@ -155,14 +155,17 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--teal);outline-offs
 .s5{bottom:8%;left:26%;width:8px;height:8px;color:var(--yellow)}
 .s6{top:44%;right:7%;width:7px;height:7px;color:var(--teal)}
 .pfield{
-  display:flex;align-items:center;gap:9px;margin-top:12px;
+  display:flex;align-items:center;gap:9px;margin-top:12px;margin-bottom:12px;
   border:2px solid var(--teal);border-radius:var(--r-tile);
   background:var(--s-low);padding:11px 12px;
 }
 .pbadge{font-size:9.5px;font-weight:700;letter-spacing:.4px;color:var(--on-mint-container);background:var(--mint-container);border-radius:6px;padding:3px 7px}
 .pans{font-size:15px;font-weight:600;color:var(--ink)}
 .pfield .ic{width:17px;height:17px;margin-left:auto;color:var(--teal)}
-.pbuddy{width:56%;margin:14px auto 0;display:block}
+/* The buddy anchors to the screen's bottom edge (auto top margin soaks up any
+   extra height). The image is landscape and cropped to the art's bounds —
+   resizing it into a square once stretched the poor mascot vertically. */
+.pbuddy{width:72%;margin:auto auto 8px;display:block}
 
 /* Floating explainers. Anchored to the phone's edges so each sits BESIDE it
    with only a sliver of overlap — a chip centred over the card would cover the
@@ -425,6 +428,13 @@ footer .copy{margin-left:auto;color:var(--ink-variant);font-size:.9rem}
 }
 
 /* ---------- responsive ---------- */
+/* Between the stack point and full desktop there is no slack outside the
+   hero-art column, so the explainer chips would poke past the viewport and be
+   clipped by overflow:clip. Tuck them onto the phone's corners instead. */
+@media (max-width:1240px) and (min-width:961px){
+  .f-a{right:calc(100% - 140px);top:-14px}
+  .f-b{left:calc(100% - 140px);bottom:-14px}
+}
 @media (max-width:960px){
   .hero{grid-template-columns:1fr;padding-block:clamp(22px,5vw,48px)}
   .hero-art{margin-top:18px}
@@ -529,7 +539,7 @@ footer .copy{margin-left:auto;color:var(--ink-variant);font-size:.9rem}
             <span class="pans">ni hao</span>
             <svg class="ic"><use href="#i-check"/></svg>
           </div>
-          <img class="pbuddy" src="img/buddy.webp" alt="" width="300" height="300">
+          <img class="pbuddy" src="img/buddy.webp" alt="" width="440" height="310">
         </div>
       </div>
       <span class="fcard f-a" aria-hidden="true"><svg class="ic"><use href="#i-check"/></svg><span><b>ni hao</b> counts for <b>nǐ hǎo</b> — tone marks optional</span></span>
