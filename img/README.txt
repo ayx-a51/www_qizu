@@ -26,8 +26,10 @@ buddy.webp     assets/illustrations/test_buddy_2.webp (1500x1000), cropped to
                inside the hand-built hero phone. Keep the aspect ratio when
                regenerating: an earlier square resize stretched the mascot.
 
-og.png         store/feature_graphic.png, scaled to 1200x630 and quantised.
-               Link preview image only; no page loads it.
+og.png         Rendered natively at 1200x630 by the app repo's
+               tool/generate_feature_graphic.ps1 (same answer-line design as
+               the Play feature graphic, not a rescale of it). Link preview
+               image only; no page loads it.
 
 Sources live in the app repo (Flutter-PROJECTS/qizu). Nothing here is generated
 at request time — the site is fully static.
