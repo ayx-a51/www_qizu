@@ -83,16 +83,14 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--teal);outline-offs
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
 /* ---------- the QIZU mark, reduced to a decorative rule ----------
-   The launcher icon in miniature (SPEC §10): a yellow card behind, a magenta
-   card overlapping it in front, and the mint sparkle off its top-right. */
-.fan{position:relative;display:inline-flex;align-items:center;padding:4px 14px 0 0}
-.fan i{width:14px;height:19px;border-radius:4px;display:block}
-.fan i:nth-child(1){background:var(--yellow);transform:rotate(-12deg)}
-.fan i:nth-child(2){background:var(--magenta);transform:rotate(5deg);margin-left:-3px}
-.fan b{
-  position:absolute;right:0;top:0;width:11px;height:11px;background:var(--mint);
-  clip-path:polygon(50% 0,60% 40%,100% 50%,60% 60%,50% 100%,40% 60%,0 50%,40% 40%);
-}
+   The answer line the app draws under its wordmark, top-left of every app bar
+   (SPEC §10, features/widgets/wordmark.dart): a 4 dp yellow rounded line,
+   a 3 dp gap, then a 5 dp mint dot. Kept to the app's own proportions — the
+   line is 12x its height, the gap .75x, the dot 1.25x — so one --h scales the
+   whole mark. */
+.mark{display:inline-flex;align-items:center;--h:5px;gap:calc(var(--h)*.75)}
+.mark i{display:block;width:calc(var(--h)*12);height:var(--h);border-radius:calc(var(--h)/2);background:var(--yellow)}
+.mark b{display:block;width:calc(var(--h)*1.25);height:calc(var(--h)*1.25);border-radius:50%;background:var(--mint)}
 
 /* ---------- header ---------- */
 .top{display:flex;align-items:center;gap:13px;padding-block:clamp(16px,2.5vw,26px)}
@@ -114,7 +112,7 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--teal);outline-offs
 }
 .hero h1{font-size:clamp(2.5rem,6.4vw,4.5rem);font-weight:800;letter-spacing:-.025em;line-height:1.04}
 .hero h1 em{font-style:normal;color:var(--teal)}
-.hero .fan{margin-top:clamp(16px,2vw,22px)}
+.hero .mark{margin-top:clamp(16px,2vw,22px)}
 .tag{margin-top:clamp(14px,2.2vw,22px);color:var(--ink-variant);font-size:clamp(1.02rem,1.6vw,1.22rem);max-width:44ch}
 .pitch{margin-top:.8em;font-weight:800;font-size:clamp(1.15rem,2.1vw,1.5rem);letter-spacing:-.01em}
 .play{
@@ -189,7 +187,7 @@ section{padding-block:clamp(44px,6.5vw,92px)}
 .kick{display:flex;align-items:center;gap:.8em;margin-bottom:14px}
 .knum{font-weight:800;font-size:.8rem;padding:.35em .8em;border-radius:var(--r-chip);background:var(--teal-container);color:var(--on-teal-container);letter-spacing:.06em}
 .klab{font-weight:700;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--teal)}
-.kick .fan{margin-left:auto}
+.kick .mark{margin-left:auto}
 /* one accent per section, rotating through §9's four meanings */
 .k-mint .knum{background:var(--mint-container);color:var(--on-mint-container)}
 .k-mint .klab{color:var(--on-mint-container)}
@@ -410,7 +408,7 @@ figure{margin:0}
     paint-order:stroke fill;
   }
 }
-.cta .fan{margin-top:clamp(16px,2.4vw,26px)}
+.cta .mark{margin-top:clamp(16px,2.4vw,26px)}
 .cta .play{margin-top:clamp(18px,2.6vw,30px)}
 
 /* ---------- footer ---------- */
@@ -452,7 +450,7 @@ footer .copy{margin-left:auto;color:var(--ink-variant);font-size:.9rem}
   .sides{grid-template-columns:1fr}
   .cardbox{width:min(320px,100%)}
   .ladder{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px 10px}
-  .kick .fan{display:none}
+  .kick .mark{display:none}
 }
 @media (max-width:520px){
   .top .toplink{display:none}
@@ -506,7 +504,7 @@ footer .copy{margin-left:auto;color:var(--ink-variant);font-size:.9rem}
   <section class="wrap hero" aria-label="Introduction">
     <div>
       <h1>Flashcards you <em>type</em>.</h1>
-      <span class="fan" aria-hidden="true"><i></i><i></i><b></b></span>
+      <span class="mark" aria-hidden="true"><i></i><b></b></span>
       <p class="tag">Draw a card, type the answer, and QIZU tells you on the spot whether
         you were right. No flipping the card over, no grading yourself — though on
         lighter days, Choices and Self-check are one tap away.</p>
@@ -550,7 +548,7 @@ footer .copy{margin-left:auto;color:var(--ink-variant);font-size:.9rem}
   <!-- ============ 01 · the method ============ -->
   <section class="wrap" aria-labelledby="k-method">
     <div class="sechead">
-      <div class="kick"><span class="knum">01</span><span class="klab" id="k-method">The method</span><span class="fan" aria-hidden="true"><i></i><i></i><b></b></span></div>
+      <div class="kick"><span class="knum">01</span><span class="klab" id="k-method">The method</span><span class="mark" aria-hidden="true"><i></i><b></b></span></div>
       <h2>Draw. Type. Know.</h2>
       <p class="lead">The app does the checking, so “I basically knew that” can’t quietly
         become “close enough”.</p>
@@ -642,7 +640,7 @@ footer .copy{margin-left:auto;color:var(--ink-variant);font-size:.9rem}
   <!-- ============ 02 · the three modes ============ -->
   <section class="wrap" aria-labelledby="k-modes">
     <div class="sechead">
-      <div class="kick k-mint"><span class="knum">02</span><span class="klab" id="k-modes">Three ways to answer</span><span class="fan" aria-hidden="true"><i></i><i></i><b></b></span></div>
+      <div class="kick k-mint"><span class="knum">02</span><span class="klab" id="k-modes">Three ways to answer</span><span class="mark" aria-hidden="true"><i></i><b></b></span></div>
       <h2>Type it, tap it, or turn it over.</h2>
       <p class="lead">Choose per set and switch whenever you like. All three feed the same
         card statistics and the same streak.</p>
@@ -713,7 +711,7 @@ footer .copy{margin-left:auto;color:var(--ink-variant);font-size:.9rem}
   <!-- ============ 03 · where the cards come from ============ -->
   <section class="wrap" aria-labelledby="k-cards">
     <div class="sechead">
-      <div class="kick k-magenta"><span class="knum">03</span><span class="klab" id="k-cards">Where the cards come from</span><span class="fan" aria-hidden="true"><i></i><i></i><b></b></span></div>
+      <div class="kick k-magenta"><span class="knum">03</span><span class="klab" id="k-cards">Where the cards come from</span><span class="mark" aria-hidden="true"><i></i><b></b></span></div>
       <h2>A standard word list, or your own.</h2>
       <p class="lead">Start from an exam vocabulary in two taps, or paste a list straight out
         of a chat message. Either way the cards are yours from that moment on.</p>
@@ -896,7 +894,7 @@ footer .copy{margin-left:auto;color:var(--ink-variant);font-size:.9rem}
   <!-- ============ 04 · staying with it ============ -->
   <section class="wrap" aria-labelledby="k-streak">
     <div class="sechead">
-      <div class="kick k-yellow"><span class="knum">04</span><span class="klab" id="k-streak">Staying with it</span><span class="fan" aria-hidden="true"><i></i><i></i><b></b></span></div>
+      <div class="kick k-yellow"><span class="knum">04</span><span class="klab" id="k-streak">Staying with it</span><span class="mark" aria-hidden="true"><i></i><b></b></span></div>
       <h2>A streak worth keeping.</h2>
       <p class="lead">One answered card is a day. The flame does the rest — and it forgives
         the day you miss.</p>
@@ -948,7 +946,7 @@ footer .copy{margin-left:auto;color:var(--ink-variant);font-size:.9rem}
   <!-- ============ 05 · the app ============ -->
   <section class="wrap" aria-labelledby="k-app">
     <div class="sechead">
-      <div class="kick"><span class="knum">05</span><span class="klab" id="k-app">The app</span><span class="fan" aria-hidden="true"><i></i><i></i><b></b></span></div>
+      <div class="kick"><span class="knum">05</span><span class="klab" id="k-app">The app</span><span class="mark" aria-hidden="true"><i></i><b></b></span></div>
       <h2>Bright, flat, and out of the way.</h2>
       <p class="lead">One screen at a time, never more than a tap from home. No ads anywhere,
         at any tier.</p>
@@ -1006,7 +1004,7 @@ footer .copy{margin-left:auto;color:var(--ink-variant);font-size:.9rem}
 
   <section class="wrap cta" aria-label="Download">
     <h2>Type it.<br><span class="hollow">Know it.</span></h2>
-    <span class="fan" aria-hidden="true"><i></i><i></i><b></b></span>
+    <span class="mark" aria-hidden="true"><i></i><b></b></span>
     <br>
     <a class="play" href="https://play.google.com/store/apps/details?id=io.a51.qizu"><span class="tri" aria-hidden="true"></span>Get it on Google&nbsp;Play</a>
     <p class="free">Free &middot; Android &middot; No ads &middot; In&#8209;app purchases</p>
