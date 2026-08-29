@@ -1,13 +1,24 @@
 QIZU website images
 ===================
 
-shot-*.webp    Screenshots taken on an Android emulator (1080x2400), scaled to
-               half size. The demo library they show is built by
+shot-*.webp    Screenshots taken on an Android emulator at 1440x3200 /
+               density 560 and exported at 1080x2400 — twice the 540x1200 slot
+               index.html gives each <img>, so they stay sharp on HiDPI. Not
+               made here: the app repo's store/build_screenshots.py writes them
+               with `python store/build_screenshots.py --site <this folder>`,
+               from the same raw frames the Play screenshots use, so the site
+               and the store listing can never drift apart.
+
+               The demo library they show is built by
                integration_test/seed_demo_test.dart in the app repo — run it
                armed (--dart-define=QIZU_SEED_DEMO=true) against a throwaway
-               account, then reinstall the app and sign in again.
-               shot-type.webp has the emulator's floating keyboard toolbar
-               painted out: on a real phone the keyboard fills that area.
+               account. Re-captured 2026-08-29 on 1.1.0+16 with QIZU+ active.
+
+               No hand-retouching any more: the AVD now runs hw.keyboard=no, so
+               shot-type.webp shows the real soft keyboard instead of the
+               floating toolbar that used to be painted out, and the composer
+               itself blanks the one status-bar slot where the emulator's
+               ethernet glyph flickers between frames.
 
 qizu-mark.png  The current launcher icon (assets/icon/icon_512.png) at 192px —
                the header and footer mark on every page. favicon.ico and
