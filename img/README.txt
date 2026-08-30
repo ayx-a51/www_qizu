@@ -13,6 +13,11 @@ shot-*.webp    Screenshots taken on an Android emulator at 1440x3200 /
                integration_test/seed_demo_test.dart in the app repo — run it
                armed (--dart-define=QIZU_SEED_DEMO=true) against a throwaway
                account. Re-captured 2026-08-29 on 1.1.0+16 with QIZU+ active.
+               Still the 1.1.0+16 frames as of 2026-08-30: the page text now
+               describes 1.2.1 (card audio, 43 lists incl. English for Work &
+               Study and DE/FR/ES B2), so a card could show the play glyph and
+               the catalogue the new groups. Re-capture when convenient; until
+               then the alt texts describe what the frames actually show.
 
                No hand-retouching any more: the AVD now runs hw.keyboard=no, so
                shot-type.webp shows the real soft keyboard instead of the
