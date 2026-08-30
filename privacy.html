@@ -24,7 +24,7 @@
   <div class="pagehead">
     <p class="kicker">Legal</p>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: 28 August 2026</p>
+    <p class="updated">Last updated: 30 August 2026</p>
     <p class="intro">QIZU holds the quiz sets you build and how you are doing
     with them. This page describes exactly what is stored, where, and how to
     remove it.</p>
@@ -60,6 +60,19 @@
     As with any Firebase-backed app, Google records the IP address and user
     agent of requests for sign-in security and in function logs.</p>
 
+    <p>Two kinds of content are fetched from static web servers rather than
+    Firebase: ready-made word lists from qizu.net (served by GitHub Pages) and,
+    with QIZU+, card audio from audio.qizu.net (served by Cloudflare). Like any
+    web server, they record the IP address and user agent of each request in
+    their logs. A request names only the list or the audio file being fetched
+    — audio files are identified by an opaque code, and your own cards are never
+    sent to either server.</p>
+
+    <p>If you report a problem with a card from within the app, the report you
+    choose to send contains that card's text, the answer you typed, the kind of
+    problem and your optional note, and is stored in Firestore with your account
+    so we can fix the content. Reports are deleted together with your account.</p>
+
     <h2>Cookies and tracking</h2>
     <p>QIZU does not use cookies, advertising identifiers, analytics, or any
     tracking technologies.</p>
@@ -73,7 +86,9 @@
 
     <h2>Data sharing</h2>
     <p>We do not share your personal data with any third parties other than
-    Google as part of the Firebase and Google Play services named above.</p>
+    Google as part of the Firebase and Google Play services named above, and
+    GitHub and Cloudflare, whose servers deliver the word lists and card audio
+    described above.</p>
 
     <h2>Data retention</h2>
     <p>Your data is retained for as long as your account exists. You may delete
