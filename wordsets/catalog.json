@@ -358,6 +358,42 @@
               "words": 913
             }
           ]
+        },
+        {
+          "id": "en-service",
+          "name": "English for Work & Study",
+          "sets": [
+            {
+              "id": "en-service-nawl",
+              "name": "Academic English",
+              "dims": [
+                1,
+                16
+              ],
+              "csv": "en_service_nawl.csv",
+              "words": 959
+            },
+            {
+              "id": "en-service-bsl",
+              "name": "Business English",
+              "dims": [
+                1,
+                16
+              ],
+              "csv": "en_service_bsl.csv",
+              "words": 1744
+            },
+            {
+              "id": "en-service-tsl",
+              "name": "Workplace English",
+              "dims": [
+                1,
+                16
+              ],
+              "csv": "en_service_tsl.csv",
+              "words": 1249
+            }
+          ]
         }
       ]
     },
@@ -398,6 +434,16 @@
               ],
               "csv": "de_cefr_b1.csv",
               "words": 1200
+            },
+            {
+              "id": "de-cefr-b2",
+              "name": "German B2",
+              "dims": [
+                2,
+                1
+              ],
+              "csv": "de_cefr_b2.csv",
+              "words": 1184
             }
           ]
         }
@@ -440,6 +486,16 @@
               ],
               "csv": "fr_cefr_b1.csv",
               "words": 1200
+            },
+            {
+              "id": "fr-cefr-b2",
+              "name": "French B2",
+              "dims": [
+                3,
+                1
+              ],
+              "csv": "fr_cefr_b2.csv",
+              "words": 1182
             }
           ]
         }
@@ -482,6 +538,16 @@
               ],
               "csv": "es_cefr_b1.csv",
               "words": 1218
+            },
+            {
+              "id": "es-cefr-b2",
+              "name": "Spanish B2",
+              "dims": [
+                4,
+                1
+              ],
+              "csv": "es_cefr_b2.csv",
+              "words": 1183
             }
           ]
         }
