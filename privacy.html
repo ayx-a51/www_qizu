@@ -24,7 +24,7 @@
   <div class="pagehead">
     <p class="kicker">Legal</p>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: 6 November 2026</p>
+    <p class="updated">Last updated: 20 November 2026</p>
     <p class="intro">QIZU holds the quiz sets you build and how you are doing
     with them. This page describes exactly what is stored, where, and how to
     remove it.</p>
@@ -35,8 +35,12 @@
     <p>You can use QIZU without an account — the app then stores your data
     under a random anonymous identifier, and we receive no personal
     information about you. When you sign in with Google we receive your email
-    address, display name and profile picture — used solely to identify your
-    account. In both cases the app stores the quiz sets and cards you create
+    address, display name and profile picture. When you sign in with Apple we
+    receive your email address and, if you choose to share it, your name; if
+    you choose Apple's <em>Hide My Email</em>, we receive only a private relay
+    address from Apple that forwards to your inbox, never your real address.
+    Either way, this is used solely to identify your account. In every case the
+    app stores the quiz sets and cards you create
     and your practice statistics (cards answered, time practiced, streaks). If
     you subscribe to QIZU+, we also keep a record of that subscription (see
     <em>Subscriptions</em> below). We do not collect any other personal
@@ -84,27 +88,43 @@
 
   <section class="card">
     <h2>Subscriptions</h2>
-    <p>The optional QIZU+ subscription is processed entirely by Google Play. We
-    never see or store your payment details.</p>
+    <p>The optional QIZU+ subscription is processed entirely by Google Play on
+    Android and by Apple's App Store on iPhone. We never see or store your
+    payment details.</p>
 
-    <p>When you subscribe, the app passes Google Play's purchase token for
-    that subscription to our server, which asks Google Play to confirm it and
-    stores, with your account: the token, which plan you chose, the
-    subscription's status (for example active, cancelled or paused), when the
-    current period ends, and when Google last confirmed it. This lets QIZU+
-    follow your account to your other devices, and makes sure one
-    subscription unlocks one account. The server asks Google Play again from
-    time to time — for example when a period ends — so that a renewal, a
-    cancellation or a refund reaches all your devices. These records are
-    deleted together with your account; the subscription itself stays with
-    Google Play, so cancel it there if you no longer want it.</p>
+    <p>On Android, when you subscribe, the app passes Google Play's purchase
+    token for that subscription to our server, which asks Google Play to
+    confirm it and stores, with your account: the token, which plan you chose,
+    the subscription's status (for example active, cancelled or paused), when
+    the current period ends, and when Google last confirmed it.</p>
+
+    <p>On iPhone, the app passes the App Store's signed record of your
+    purchase to our server, which checks it with Apple and stores, with your
+    account: the purchase's transaction ID, which plan you chose, the
+    subscription's status, when the current period ends, and when Apple last
+    confirmed it. When you buy while signed in, the app gives Apple an
+    identifier derived from your QIZU account ID, so that Apple's records of
+    the purchase name the account it belongs to, and Apple tells our server
+    about renewals, cancellations and refunds. You can also subscribe on
+    iPhone without signing in: QIZU+ then works on that iPhone only, and
+    nothing about the purchase reaches our server until you sign in, when it
+    is recorded with your account as described above.</p>
+
+    <p>This lets QIZU+ follow your account to your other devices, and makes
+    sure one subscription unlocks one account. The server checks again with
+    Google Play or Apple from time to time — for example when a period ends —
+    so that a renewal, a cancellation or a refund reaches all your devices.
+    These records are deleted together with your account; the subscription
+    itself stays with Google Play or the App Store, so cancel it there if you
+    no longer want it.</p>
 
     <h2>Data sharing</h2>
     <p>We do not share your personal data with any third parties other than
     Google as part of the Firebase and Google Play services named above,
     GitHub and Cloudflare, whose servers deliver the word lists and card audio
-    described above, and, on iPhone, Apple, whose App Attest service confirms
-    that requests come from the genuine app.</p>
+    described above, and Apple as part of Sign in with Apple, the App Store
+    and, on iPhone, its App Attest service, which confirms that requests come
+    from the genuine app.</p>
 
     <h2>Data retention</h2>
     <p>Your data is retained for as long as your account exists. You may delete
@@ -125,7 +145,9 @@
     <h2>Your rights</h2>
     <p>You can delete your account and all data directly in the app
     (<strong>Settings &rarr; Delete account</strong>), or follow our
-    <a href="data_deletion.html">Data Deletion Policy</a>. Individual quiz sets
+    <a href="data_deletion.html">Data Deletion Policy</a>. If you signed in
+    with Apple, deleting your account also revokes QIZU's Sign in with Apple
+    access to your Apple Account. Individual quiz sets
     can be exported as CSV inside the app; you may also request a copy of your
     data via the contact below.</p>
 
